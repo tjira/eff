@@ -1,9 +1,9 @@
 # Makefile for eff2 -- Julius Su
 
 CXX = icc
-CXXFLAGS = -O2 -xW -axW -iop -static
+CXXFLAGS = -O2 -static
 CC = icc
-CFLAGS = -O2 -xW -axW -iop -static
+CFLAGS = -O2 -static
 
 LIBS = -lm
 
