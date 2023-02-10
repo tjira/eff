@@ -14,6 +14,9 @@ OBJECTS2 = makemol.o
 eff: $(OBJECTS)
 	$(CXX) $(LDFLAGS) $(OBJECTS) -o $@ $(LIBS)
 
+clean:
+	rm -f eff *.o
+
 eff_access.o: eff_access.h eff_global.h
 eff_create.o: eff_create.h eff_global.h
 eff_driver.o: eff_driver.h
