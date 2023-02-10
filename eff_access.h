@@ -1,0 +1,23 @@
+
+double GetTotalPE();
+double GetNucleusPE(int i);
+double GetElectronPE(int i);
+void GetNuclearForce(int i, double *fx, double *fy, double *fz);
+void GetElectronForce(int i, double *fx, double *fy, double *fz, double *fr);
+void GetElectronPosition(int i, double *x, double *y, double *z, double *r);
+void SetElectronPosition(int i, double x, double y, double z, double r);
+void GetNuclearPosition(int i, double *x, double *y, double *z);
+void SetNuclearPosition(int i, double x, double y, double z);
+double GetNuclearCharge(int i);
+int GetElectronSpin(int i);
+int NumNuclei();
+int NumElectrons();
+void AddNuclearForce(int i, double fx, double fy, double fz);
+void AddElectronForce(int i, double fx, double fy, double fz, double fr);
+void AddNucleusPE(int i, double energy);
+void AddElectronPE(int i, double energy);
+void SetElectronRadius(int i, double r);
+double GetElectronRadiusForce(int i);
+void ShiftMonomer(double r, double dx, double dy, double dz);
+void ScaleElectrons(double r);
+int NumHeavyNuclei();
