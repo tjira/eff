@@ -1,3 +1,4 @@
+#include <stdlib.h>
 
 void AllocateInitialVelocities(int s_max_nuc_v, int s_max_elec_v);
 void AllocateInitialMasses(int s_max_nuc_m, int s_max_elec_m);

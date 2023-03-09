@@ -1,0 +1,235 @@
+[params]	s_cutoff = 1000.000000
+[params]	x_bound = -1000000.000000 1000000.000000
+[params]	y_bound = -1000000.000000 1000000.000000
+[params]	z_bound = -1000000.000000 1000000.000000
+[params]	periodic = false
+[params]	ewald_log_precision = -6.000000
+[params]	ewald_re_cutoff = 3.540000
+[params]	ewald_max_re = 4.500000
+[params]	ewald_autoset = true
+[params]	ewald_r_cutoff = 7.000000
+[params]	ewald_k_cutoff = 8.000000
+[params]	ewald_nuc_r = 1.000000e-10
+[params]	min = conjugate_gradient
+[params]	thermostat = none
+[params]	start_temperature = 0.000000
+[params]	dt = 0.005000
+[params]	print_every = 50
+[params]	num_steps = 10000
+[params]	calc = minimize
+[params]	output_position = all
+[params]	output_velocity = all
+[params]	output_energy_forces = none
+[params]	output_restart = all
+[params]	electron_mass = 1.000000
+[params]	rand_seed = 10000
+[params]	e_field = 0.000000 0.000000 0.000000
+[params]	e_field_freq = 0.000000
+[params]	e_field_duration = 0.000000
+[params]	collapse_move = 0.000000
+[num_nuclei]	6
+[num_electrons]	16
+[nuc_header]	index	Z	label
+[nuc]	1	6.000000	C
+[nuc]	2	6.000000	C
+[nuc]	3	1.000000	H
+[nuc]	4	1.000000	H
+[nuc]	5	1.000000	H
+[nuc]	6	1.000000	H
+[elec_header]	index	spin
+[elec]	1	1
+[elec]	2	-1
+[elec]	3	1
+[elec]	4	-1
+[elec]	5	1
+[elec]	6	-1
+[elec]	7	1
+[elec]	8	-1
+[elec]	9	1
+[elec]	10	-1
+[elec]	11	1
+[elec]	12	-1
+[elec]	13	1
+[elec]	14	-1
+[elec]	15	1
+[elec]	16	-1
+[Minimize_type]	Conjugate gradient.
+[Minimize_iter_header]	# iters	# func evals	f	grad2
+[Minimize_iter]	0	1	-3.894646e+01	1.670219e+04
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-0.777200	-0.010800	-0.205400
+[position_nuc]	2	0.776800	0.010800	0.206200
+[position_nuc]	3	-1.340000	-1.118400	-0.528200
+[position_nuc]	4	-1.455200	1.080000	-0.212600
+[position_nuc]	5	1.454800	-1.080000	0.212200
+[position_nuc]	6	1.340800	1.118400	0.527800
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-0.777200	-0.010800	-0.205400	0.230000
+[position_elec]	2	-0.777200	-0.010800	-0.205400	0.230000
+[position_elec]	3	0.776800	0.010800	0.206200	0.230000
+[position_elec]	4	0.776800	0.010800	0.206200	0.230000
+[position_elec]	5	-0.000200	0.000000	0.100400	1.300000
+[position_elec]	6	-0.000200	0.000000	0.100400	1.300000
+[position_elec]	7	-0.000200	0.000000	-0.099600	1.300000
+[position_elec]	8	-0.000200	0.000000	-0.099600	1.300000
+[position_elec]	9	-1.058600	-0.564600	-0.366800	1.300000
+[position_elec]	10	-1.058600	-0.564600	-0.366800	1.300000
+[position_elec]	11	-1.116200	0.534600	-0.209000	1.300000
+[position_elec]	12	-1.116200	0.534600	-0.209000	1.300000
+[position_elec]	13	1.115800	-0.534600	0.209200	1.300000
+[position_elec]	14	1.115800	-0.534600	0.209200	1.300000
+[position_elec]	15	1.058800	0.564600	0.367000	1.300000
+[position_elec]	16	1.058800	0.564600	0.367000	1.300000
+[Minimize_iter]	50	101	-6.653657e+01	6.243009e-03
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.215247	-0.026085	-0.234004
+[position_nuc]	2	1.214529	0.026032	0.235292
+[position_nuc]	3	-1.702998	-2.066173	-0.800015
+[position_nuc]	4	-1.908600	2.033228	-0.251072
+[position_nuc]	5	1.908301	-2.033194	0.249661
+[position_nuc]	6	1.704804	2.066310	0.798613
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.216625	-0.026157	-0.234027	0.326407
+[position_elec]	2	-1.216619	-0.026160	-0.233995	0.326221
+[position_elec]	3	1.215958	0.026099	0.235319	0.326098
+[position_elec]	4	1.215958	0.026110	0.235320	0.326102
+[position_elec]	5	-0.123677	-0.080878	0.708734	1.835731
+[position_elec]	6	-0.123671	-0.080878	0.708739	1.835725
+[position_elec]	7	0.122820	0.080879	-0.706866	1.835528
+[position_elec]	8	0.122826	0.080879	-0.706868	1.835523
+[position_elec]	9	-1.665419	-1.340914	-0.595508	1.746811
+[position_elec]	10	-1.665421	-1.340920	-0.595511	1.746806
+[position_elec]	11	-1.792955	1.289081	-0.250285	1.744170
+[position_elec]	12	-1.792957	1.289087	-0.250285	1.744164
+[position_elec]	13	1.792444	-1.289137	0.250063	1.744178
+[position_elec]	14	1.792444	-1.289136	0.250063	1.744178
+[position_elec]	15	1.666052	1.340963	0.595316	1.746641
+[position_elec]	16	1.666052	1.340963	0.595316	1.746641
+[Minimize_iter]	100	201	-6.656138e+01	7.969642e-03
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.217359	-0.013713	-0.326159
+[position_nuc]	2	1.217080	0.014385	0.326602
+[position_nuc]	3	-2.132544	-1.913811	-0.767098
+[position_nuc]	4	-2.315478	1.837129	-0.271755
+[position_nuc]	5	2.315176	-1.837636	0.272138
+[position_nuc]	6	2.132927	1.913342	0.767291
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.218151	-0.013715	-0.326439	0.326934
+[position_elec]	2	-1.218141	-0.013715	-0.326410	0.325694
+[position_elec]	3	1.217810	0.014370	0.326852	0.326023
+[position_elec]	4	1.217808	0.014399	0.326857	0.326126
+[position_elec]	5	-0.166829	-0.097815	0.698205	1.829964
+[position_elec]	6	-0.166789	-0.097816	0.698237	1.829944
+[position_elec]	7	0.166489	0.097687	-0.697722	1.830020
+[position_elec]	8	0.166538	0.097691	-0.697730	1.829968
+[position_elec]	9	-1.864414	-1.239069	-0.633387	1.724856
+[position_elec]	10	-1.864439	-1.239116	-0.633397	1.724828
+[position_elec]	11	-1.982147	1.182151	-0.315736	1.722067
+[position_elec]	12	-1.982179	1.182200	-0.315735	1.722017
+[position_elec]	13	1.981666	-1.182404	0.316052	1.721041
+[position_elec]	14	1.981664	-1.182401	0.316052	1.721045
+[position_elec]	15	1.864657	1.238930	0.633642	1.725912
+[position_elec]	16	1.864656	1.238926	0.633641	1.725913
+[Minimize_iter]	150	301	-6.656248e+01	4.499625e-04
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.223425	-0.017827	-0.299394
+[position_nuc]	2	1.223226	0.018138	0.299768
+[position_nuc]	3	-2.171086	-1.882317	-0.797344
+[position_nuc]	4	-2.350057	1.812559	-0.312797
+[position_nuc]	5	2.349581	-1.812778	0.313228
+[position_nuc]	6	2.171264	1.882017	0.797626
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.224151	-0.017833	-0.299599	0.326383
+[position_elec]	2	-1.224156	-0.017831	-0.299535	0.326433
+[position_elec]	3	1.223945	0.018148	0.299971	0.326405
+[position_elec]	4	1.223964	0.018152	0.299913	0.326429
+[position_elec]	5	-0.169636	-0.101291	0.699852	1.824914
+[position_elec]	6	-0.169638	-0.101291	0.699848	1.824918
+[position_elec]	7	0.169412	0.101307	-0.699483	1.825032
+[position_elec]	8	0.169411	0.101307	-0.699483	1.825038
+[position_elec]	9	-1.887019	-1.228843	-0.634993	1.721281
+[position_elec]	10	-1.887018	-1.228841	-0.634992	1.721285
+[position_elec]	11	-2.003381	1.170036	-0.319492	1.721410
+[position_elec]	12	-2.003380	1.170034	-0.319492	1.721409
+[position_elec]	13	2.002959	-1.170141	0.319873	1.721024
+[position_elec]	14	2.002958	-1.170141	0.319873	1.721025
+[position_elec]	15	1.887115	1.228719	0.635327	1.721767
+[position_elec]	16	1.887114	1.228718	0.635327	1.721767
+[Minimize_iter]	200	401	-6.656252e+01	1.109134e-04
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.225138	-0.018274	-0.299354
+[position_nuc]	2	1.224942	0.018255	0.299720
+[position_nuc]	3	-2.185694	-1.877375	-0.802011
+[position_nuc]	4	-2.363995	1.807625	-0.317409
+[position_nuc]	5	2.363546	-1.807711	0.317819
+[position_nuc]	6	2.185840	1.877346	0.802361
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.225860	-0.018287	-0.299534	0.326420
+[position_elec]	2	-1.225841	-0.018280	-0.299516	0.326464
+[position_elec]	3	1.225659	0.018260	0.299904	0.326418
+[position_elec]	4	1.225645	0.018263	0.299878	0.326407
+[position_elec]	5	-0.169515	-0.100056	0.700121	1.825633
+[position_elec]	6	-0.169517	-0.100056	0.700121	1.825633
+[position_elec]	7	0.169331	0.100170	-0.699762	1.825551
+[position_elec]	8	0.169329	0.100170	-0.699761	1.825553
+[position_elec]	9	-1.895884	-1.226593	-0.636290	1.722123
+[position_elec]	10	-1.895883	-1.226591	-0.636289	1.722128
+[position_elec]	11	-2.011527	1.167337	-0.321628	1.721831
+[position_elec]	12	-2.011526	1.167336	-0.321628	1.721828
+[position_elec]	13	2.011177	-1.167354	0.322007	1.721907
+[position_elec]	14	2.011177	-1.167354	0.322007	1.721907
+[position_elec]	15	1.895867	1.226584	0.636622	1.721911
+[position_elec]	16	1.895867	1.226585	0.636622	1.721910
+[Minimize_iter]	250	501	-6.656253e+01	3.828142e-07
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.224831	-0.018245	-0.300325
+[position_nuc]	2	1.224658	0.018274	0.300689
+[position_nuc]	3	-2.188483	-1.875253	-0.800737
+[position_nuc]	4	-2.366190	1.805110	-0.316718
+[position_nuc]	5	2.365804	-1.805174	0.317114
+[position_nuc]	6	2.188509	1.875182	0.801054
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.225537	-0.018254	-0.300498	0.326436
+[position_elec]	2	-1.225537	-0.018254	-0.300498	0.326437
+[position_elec]	3	1.225365	0.018283	0.300862	0.326435
+[position_elec]	4	1.225364	0.018283	0.300862	0.326439
+[position_elec]	5	-0.170398	-0.100063	0.700070	1.825020
+[position_elec]	6	-0.170398	-0.100063	0.700070	1.825020
+[position_elec]	7	0.170200	0.100128	-0.699699	1.825050
+[position_elec]	8	0.170201	0.100128	-0.699699	1.825050
+[position_elec]	9	-1.897251	-1.225553	-0.636791	1.721437
+[position_elec]	10	-1.897251	-1.225553	-0.636791	1.721437
+[position_elec]	11	-2.012605	1.166171	-0.322318	1.721266
+[position_elec]	12	-2.012605	1.166171	-0.322318	1.721265
+[position_elec]	13	2.012299	-1.166201	0.322704	1.721317
+[position_elec]	14	2.012299	-1.166201	0.322704	1.721317
+[position_elec]	15	1.897192	1.225542	0.637131	1.721453
+[position_elec]	16	1.897192	1.225542	0.637131	1.721453
+[Minimize_result] Converged.
+[position_nuc_header]	#	x	y	z
+[position_nuc]	1	-1.224878	-0.018254	-0.300350
+[position_nuc]	2	1.224695	0.018287	0.300716
+[position_nuc]	3	-2.188496	-1.875289	-0.800725
+[position_nuc]	4	-2.366151	1.805151	-0.316749
+[position_nuc]	5	2.365778	-1.805228	0.317145
+[position_nuc]	6	2.188518	1.875229	0.801045
+[position_elec_header]	#	E	x	y	z	r
+[position_elec]	1	-1.225585	-0.018263	-0.300523	0.326437
+[position_elec]	2	-1.225585	-0.018263	-0.300523	0.326437
+[position_elec]	3	1.225402	0.018296	0.300889	0.326437
+[position_elec]	4	1.225402	0.018296	0.300889	0.326436
+[position_elec]	5	-0.170344	-0.100078	0.700098	1.825048
+[position_elec]	6	-0.170344	-0.100077	0.700098	1.825048
+[position_elec]	7	0.170155	0.100139	-0.699729	1.825051
+[position_elec]	8	0.170155	0.100139	-0.699729	1.825051
+[position_elec]	9	-1.897303	-1.225581	-0.636825	1.721443
+[position_elec]	10	-1.897303	-1.225581	-0.636825	1.721443
+[position_elec]	11	-2.012646	1.166180	-0.322303	1.721272
+[position_elec]	12	-2.012646	1.166180	-0.322303	1.721272
+[position_elec]	13	2.012347	-1.166208	0.322688	1.721283
+[position_elec]	14	2.012347	-1.166208	0.322688	1.721283
+[position_elec]	15	1.897242	1.225567	0.637164	1.721443
+[position_elec]	16	1.897242	1.225567	0.637164	1.721443
+[total_dipole]	0.000119
+[total_energy]	-66.562526
+[time_elapsed]	0.029045

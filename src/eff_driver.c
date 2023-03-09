@@ -67,7 +67,7 @@ int main(int argc, char **argv)
   GetExtension(argv[1], extension);
   GetBasename(argv[1], basename);
   
-  char out_filname[2048];
+  char out_filname[2052];
   sprintf(out_filname, "%s.eff", basename);
   sprintf(restart_filname, "%s.restart", argv[1]);
   out_fp = fopen(out_filname, "w");

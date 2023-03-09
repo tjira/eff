@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <string.h>
+
 void InitializeParameters();
 void AddParameter(char *name, void (*fp)(int, char **));
 void ExecuteParameter(char *name, int argc, char **argv);

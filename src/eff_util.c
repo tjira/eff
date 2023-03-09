@@ -1,8 +1,10 @@
 #include "eff_util.h"
 #include <stdarg.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <math.h>
 #include <ctype.h>
+#include <string.h>
 
 void error(const char *format, ...)
 {

@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 void IntitializeEnergyUpdater(double s_cutoff, int periodic);
 void UpdateEnergyForces();
 void UpdateKineticEnergy();

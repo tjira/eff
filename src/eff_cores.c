@@ -1,5 +1,7 @@
 #include "eff_access.h"
 #include "eff_cores.h"
+#include <stdlib.h>
+#include <math.h>
 
 int *array_isCore;
 

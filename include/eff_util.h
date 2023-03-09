@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 void error(const char *format, ...);
 double rand_uni();
 double rand_gauss();

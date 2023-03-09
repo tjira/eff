@@ -1,4 +1,5 @@
 #include "eff_global.h"
+#include <stdlib.h>
 
 void AllocateMinimize(enum MinimizeType s_minmethod);
 int MinStorageRequirements(enum MinimizeType s_minmethod);
